@@ -65,3 +65,10 @@ sudo make install-polkit
 ```
 ## Setup on Arch
 You may use the AUR package [zenmonitor-git](https://aur.archlinux.org/packages/zenmonitor-git/) to install via [traditional method](https://wiki.archlinux.org/index.php/Arch_User_Repository) or using an AUR helper (like yay)
+
+## Implementation for commandline and csv output install and use 
+```
+make build-cli
+sudo make install-cli
+sudo ./zenmonitor-cli -f ./output.csv
+```
